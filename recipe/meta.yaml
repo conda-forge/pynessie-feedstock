@@ -1,5 +1,5 @@
 {% set name = "pynessie" %}
-{% set version = "0.46.3" %}
+{% set version = "0.46.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pynessie-{{ version }}.tar.gz
-  sha256: 52ab6a3e412fce82422e23d316e1c9aa0bf3b9f7ab11287fa8771f6ada13e371
+  sha256: 2caf59d95437c0a10dfd5dabe258bd81bd0f76c904c73b8008b2226e33871fdd
 
 build:
   entry_points:
@@ -30,6 +30,7 @@ requirements:
     - marshmallow
     - marshmallow-oneofschema
     - python-dateutil
+    - pyyaml
     - requests
     - requests-aws4auth
     - simplejson

@@ -1,5 +1,5 @@
 {% set name = "pynessie" %}
-{% set version = "0.50.0" %}
+{% set version = "0.51.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pynessie-{{ version }}.tar.gz
-  sha256: 997637183b47f83d65a41bf60650ced0a58ec1453e1ea1a1ae831206498a06b1
+  sha256: 4a821e5ce173d51281419e382317cc0b62e6a2ab0ee9db8d6db5e2c9aca4672a
 
 build:
   entry_points:

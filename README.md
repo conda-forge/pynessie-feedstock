@@ -1,11 +1,11 @@
-About pynessie
-==============
+About pynessie-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pynessie-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/projectnessie/nessie
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pynessie-feedstock/blob/main/LICENSE.txt)
 
 Summary: Project Nessie: Transactional Catalog for Data Lakes with Git-like semantics
 

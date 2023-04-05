@@ -25,7 +25,7 @@ requirements:
     - attrs
     - botocore
     - click <9.0.0,>6.0.0
-    - confuse ==2.0.0
+    - confuse ==2.0.1
     - desert
     - marshmallow
     - marshmallow-oneofschema

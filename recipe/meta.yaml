@@ -30,7 +30,7 @@ requirements:
     - marshmallow
     - marshmallow-oneofschema
     - python-dateutil
-    - pyyaml
+    #- pyyaml
     - requests
     - requests-aws4auth
     - simplejson

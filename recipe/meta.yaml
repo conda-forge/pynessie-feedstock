@@ -18,10 +18,10 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
   run:
-    - python >=3.7
+    - python >=3.8
     - attrs
     - botocore
     - click <9.0.0,>6.0.0
@@ -30,7 +30,6 @@ requirements:
     - marshmallow
     - marshmallow-oneofschema
     - python-dateutil
-    #- pyyaml
     - requests
     - requests-aws4auth
     - simplejson

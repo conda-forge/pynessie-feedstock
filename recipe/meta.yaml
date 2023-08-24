@@ -1,5 +1,5 @@
 {% set name = "pynessie" %}
-{% set version = "0.64.0" %}
+{% set version = "0.64.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pynessie-{{ version }}.tar.gz
-  sha256: 53f90e2bd854f9d11aabadda4e065dc866f74690a9ecac8fc915ac2afe5b2619
+  sha256: 015db88d249c949d7aedf502c17cc19762326b7084e5afba5806ceaf6a9dd0cd
 
 build:
   entry_points:
@@ -18,10 +18,10 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
   run:
-    - python >=3.7
+    - python >=3.8
     - attrs
     - botocore
     - click <9.0.0,>6.0.0
@@ -30,7 +30,6 @@ requirements:
     - marshmallow
     - marshmallow-oneofschema
     - python-dateutil
-    #- pyyaml
     - requests
     - requests-aws4auth
     - simplejson

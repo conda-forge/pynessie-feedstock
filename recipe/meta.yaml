@@ -1,5 +1,5 @@
 {% set name = "pynessie" %}
-{% set version = "0.64.2" %}
+{% set version = "0.65.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pynessie-{{ version }}.tar.gz
-  sha256: 015db88d249c949d7aedf502c17cc19762326b7084e5afba5806ceaf6a9dd0cd
+  sha256: 3f8118f29ab86abec8573d5d1f0a4b1c8edbd885368a9c232e1301f83af034ca
 
 build:
   entry_points:
     - nessie=pynessie.cli:cli
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
